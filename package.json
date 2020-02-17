@@ -1,0 +1,25 @@
+{
+  "name": "homebridge-tasmota-blind",
+  "version": "1.0.0",
+  "description": "homebridge + tasmota",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdavalil/homebridge-ts.git"
+  },
+  "keywords": [
+    "homebridge-ts",
+    "homebridge",
+    "tasmota",
+    "ts"
+  ],
+  "author": "wdavalil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdavalil/homebridge-ts/issues"
+  },
+  "homepage": "https://github.com/wdavalil/homebridge-ts#readme"
+}
