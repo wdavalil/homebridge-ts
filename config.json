@@ -1,0 +1,28 @@
+
+{
+    "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-154"
+    },
+
+    "platforms": [],
+
+    "accessories": [
+        {
+            "accessory": "Homebridge-TS",
+            "name": "Blind-ts",
+            "hostname": "sonoff-7442",
+            "device": "Tasmota Blind",
+            "ip": "10.0.0.100",
+            "user": "tasmota",
+            "password": "tasmota",
+            "updateInterval": 900,
+            "debugMsgLog": 1,
+            "type": "Blind",
+            "topicStatusGetUP" : "stat/Tasmota/POWER2",
+            "topicStatusGetDOWN" : "stat/Tasmota/POWER1"
+        }
+    ]
+}
